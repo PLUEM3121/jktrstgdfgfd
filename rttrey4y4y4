@@ -32,13 +32,13 @@ _G.Item = {
 }
 _G.FilterItem = true
 _G.Distance = 10 -- Distance Hop
-_G.HopNear = true -- Hop Near Player And Block
+_G.HopNear = false -- Hop Near Player And Block
 _G.Lengened = false -- Filter Fruit 1 M +
 _G.ShowOnlyCDK = true -- Set Alias Show Only Cursed Dual Katana and 6 Melee
-_G.LowHop = true -- Hop Low Server
+_G.LowHop = false -- Hop Low Server
 -- 1 Template Sheet https://docs.google.com/spreadsheets/d/1kJE3pD0h_hPLfZOIqtjVwqL-XOqg2SE2aRpyoytAAiM/edit#gid=0
--- 2 Template Sheet https://docs.google.com/spreadsheets/d/1u0AWP3Gw4jsXdFmxiBBHfbTjIqdeG2z_bzk8vyMCMgk/edit?usp=sharing 
-_G.SheetType = 1 -- Type Of Sheet
+-- 2 Template Sheet https://docs.google.com/spreadsheets/d/1S43SfZSK26RH-poaRLrExk0jgjrFCyN0jwkQb6LhICk/edit?usp=sharing
+_G.SheetType = 2 -- Type Of Sheet
 _G.Delay = 60 -- Time Delay
 -- Config Zone
 if not _G.Delay then 
